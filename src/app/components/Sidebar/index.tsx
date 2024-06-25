@@ -1,5 +1,6 @@
 import { Search } from 'lucide-react'
 import { Logo } from './Logo'
+import { MainNavigation } from './MainNavigation'
 
 export function Sidebar() {
   return (
@@ -14,6 +15,8 @@ export function Sidebar() {
           placeholder="Buscar"
         />
       </div>
+
+      <MainNavigation />
     </aside>
   )
 }
